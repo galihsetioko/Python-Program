@@ -1,17 +1,17 @@
-Ini adalah program untuk menyimpan laporan keuangan sederhana dalam format json
-program ini menggunakan Command Line Interface untuk menerima input dari pengguna.
+This is a program for saving simple financial reports in json format
+this program uses Command Line Interface to receive input from the user.
 
-Cara menggunakan : 
+How to use : 
 
 filename.py -f [filename.json] --income [20000] --description ["Description Here"]
 
--f , --filename         Memberikan input lokasi file json
--i , --income           Memberi tahu program untuk memasukan data ke dalam dictionary "income"
--o , --outcome          Member tahu program untuk memasukan data ke dalam dictionary "outcome"
--d , --description      Memberi label atau informasi tentang "digunakan untuk membeli apa uangmu"
+-f, --filename     Input the location of the json file
+-i, --income       Tells the program to put data into the dictionary "income"
+-o, --outcome      Tells the program to put data into the "outcome" dictionary
+-d, --description  Label or give information about "what your money was used to buy"
 
-Gunakan hanya salah satu argument antara --income atau --outcome , jangan gunakan keduanya sekaligus.
+Use only one of the arguments between --income or --outcome, do not use both at once.
 
-Program akan mendeteksi input yang dimasukkan sesuai dengan tanggal ketika dijalankan , ketika kamu menjalankan
-program dengan file json yang sama esok hari , maka program otomatis mengganti informasi tanggal pada file json.
-Dengan membuat label baru sesuai dengan tanggal terkini.
+The program will detect the input entered according to the date when it was run, when you run the
+program with the same json file tomorrow, the program will automatically change the date information in the json file.
+By creating a new label according to the current date.
