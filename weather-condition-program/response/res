@@ -1,0 +1,46 @@
+{
+    'coord': {
+        'lon': 112.3956,
+        'lat': -7.4419
+    },
+    'weather': [
+        {
+            'id': 802,
+            'main': 'Clouds',
+            'description': 'scattered clouds',
+            'icon': '03d'
+        }
+    ],
+    'base': 'stations',
+    'main': {
+        'temp': 302,
+        'feels_like': 303.24,
+        'temp_min': 302,
+        'temp_max': 302,
+        'pressure': 1014,
+        'humidity': 55,
+        'sea_level': 1014,
+        'grnd_level': 1011
+    },
+    'visibility': 10000,
+    'wind': {
+        'speed': 0.3,
+        'deg': 259,
+        'gust': 1.55
+    },
+    'clouds': {
+        'all': 42
+    },
+    'dt': 1698109221,
+    'sys': {
+        'type': 1,
+        'id': 9363,
+        'country': 'ID',
+        'sunrise': 1698098702,
+        'sunset': 1698143045
+    },
+    'timezone': 25200,
+    'id': 1635111,
+    'name': 'Mojokerto',
+    'cod': 200
+}
